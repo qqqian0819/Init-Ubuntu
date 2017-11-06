@@ -46,7 +46,7 @@ Package Control, Emmet, DockBlocker, SideBar, SideNav, Babel, ColorPicker
 * sudo apt-get update
 * sudo apt-get install -y mongodb-org
 ### mongooBooster
-> 一般情况下自己会使用命令行  
+> 一般情况下我使用图形化界面比较少，多数情况下使用命令行
 * [下载软件-我的百度云](https://pan.baidu.com/s/1c1OhEnu)  
 * chmod a+x *.AppImage   
 * ./mon* // 启动
