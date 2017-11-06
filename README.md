@@ -1,7 +1,6 @@
 # init-Ubuntu
 `小插曲：连续两天每天换电脑然后在Ubuntu下重装软件配置环境，于是就琢磨着记录下来，供以后自己再换电脑时能够快速的知道需要安装哪些软件 [ps:有些安装步骤其实并不需要记录的，但为了避免以后脑子不好使所以还是不怕麻烦的记录下来]`
 ### fcitx
-* [为什么需要]()
 * sudo add-apt-repository ppa:fcitx-team/nightly
 * sudo apt-get update
 * sudo apt-get -f install
