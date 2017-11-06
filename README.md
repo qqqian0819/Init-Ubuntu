@@ -9,7 +9,7 @@
 * [官方下载安装包](https://pinyin.sogou.com/linux/?r=pinyin)
 * sudo dpkg -i sogou*
 * sudo apt-get install -f
-* system setting->language support->设置fcitx(若为安装需先行安装)
+* system setting->language support->设置fcitx(若未安装需先行安装)
 ### git
 * sud apt-get install git
 ### Node及Npm
