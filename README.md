@@ -40,6 +40,56 @@ Package Control, Emmet, DockBlocker, SideBar, SideNav, Babel, ColorPicker
 * git clone https://github.com/lyfeyaj/sublime-text-imfix.git
 * cd sublime-text-imfix
 * ./sublime-imfix 
+##### sublime下babel快捷emmet失效解决  
+代码赋值至preferences -> Key bindings - Users:
+```javascript
+    {
+  "keys": ["tab"], 
+  "command": "expand_abbreviation_by_tab", 
+
+  // put comma-separated syntax selectors for which 
+  // you want to expandEmmet abbreviations into "operand" key 
+  // instead of SCOPE_SELECTOR.
+  // Examples: source.js, text.html - source
+  "context": [
+    {
+      "operand": "source.js", 
+      "operator": "equal", 
+      "match_all": true, 
+      "key": "selector"
+    }, 
+
+    // run only if there's no selected text
+    {
+      "match_all": true, 
+      "key": "selection_empty"
+    },
+
+    // don't work if there are active tabstops
+    {
+      "operator": "equal", 
+      "operand": false, 
+      "match_all": true, 
+      "key": "has_next_field"
+    }, 
+
+    // don't work if completion popup is visible and you
+    // want to insert completion with Tab. If you want to
+    // expand Emmet with Tab even if popup is visible -- 
+    // remove this section
+    {
+      "operand": false, 
+      "operator": "equal", 
+      "match_all": true, 
+      "key": "auto_complete_visible"
+    }, 
+    {
+      "match_all": true, 
+      "key": "is_abbreviation"
+    }
+  ]
+},
+```
 ### mongodb
 * sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 0C49F3730359A14518585931BC711F9BA15703C6
 * echo "deb [ arch=amd64,arm64 ] http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.4.list
@@ -67,6 +117,3 @@ redux, react, Instant Translate(用过最好用的翻译插件)
 ### VIM打造IDE
 > 待更新
 
-```javascript 
-    alert('aa');
-```
