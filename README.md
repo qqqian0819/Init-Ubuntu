@@ -67,4 +67,6 @@ redux, react, Instant Translate(用过最好用的翻译插件)
 ### VIM打造IDE
 > 待更新
 
-
+```javascript 
+    alert('aa');
+```
