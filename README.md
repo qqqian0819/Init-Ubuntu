@@ -11,7 +11,7 @@
 * sudo apt-get install -f
 * system setting->language support->设置fcitx(若未安装需先行安装)
 ### git
-* sud apt-get install git
+* sudo apt-get install git
 ### Node及Npm
 * [官方下载安装包](https://nodejs.org/en/download/)
 * tar xvf node*tar.gz
