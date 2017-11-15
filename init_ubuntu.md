@@ -26,8 +26,8 @@ redux, react, Instant Translate(用过最好用的翻译插件)
 *  cd node*/bin
 *  ./node -v
 *  sudo ln -s /opt/node/bin/node /usr/local/bin/node // 非必须但是很有必要的
-*  sudo ln -s /opt/node/bin/npm /usr/local/bin/npm
-或者 
+*  sudo ln -s /opt/node/bin/npm /usr/local/bin/npm  
+#### 或者   
 * wget https://nodejs.org/dist/v8.9.1/node-v8.9.1.tar.gz
 * tar xvf node*.tar.gz 
 * cd node*
