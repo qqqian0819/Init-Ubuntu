@@ -20,13 +20,21 @@ redux, react, Instant Translate(用过最好用的翻译插件)
 ### git
 * sudo apt-get install git
 ### Node及Npm
-* wget https://nodejs.org/dist/v8.9.1/node-v8.9.1.tar.gz 或者 [官方下载安装包](https://nodejs.org/en/download/)
+* [官方下载安装包](https://nodejs.org/en/download/)
 * tar xvf node*tar.gz
 * sudo mv node* /opt/node //个人有将包移到opt目录下的习惯，当然时非必须的。
 *  cd node*/bin
 *  ./node -v
 *  sudo ln -s /opt/node/bin/node /usr/local/bin/node // 非必须但是很有必要的
 *  sudo ln -s /opt/node/bin/npm /usr/local/bin/npm
+或者 
+* wget https://nodejs.org/dist/v8.9.1/node-v8.9.1.tar.gz
+* tar xvf node*.tar.gz 
+* cd node*
+* ./configure 
+* make 
+* make install 
+* 移动位置创软连接,同上...
 ### curl
 * sudo apt-get install curl
 ### yarn 
