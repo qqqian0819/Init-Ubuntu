@@ -13,7 +13,7 @@
 ### git
 * sudo apt-get install git
 ### Node及Npm
-* [官方下载安装包](https://nodejs.org/en/download/)
+* [官方下载安装包](https://nodejs.org/en/download/)或者 wget https://nodejs.org/dist/v8.9.1/node-v8.9.1.tar.gz
 * tar xvf node*tar.gz
 * sudo mv node* /opt/node //个人有将包移到opt目录下的习惯，当然时非必须的。
 *  cd node*/bin
