@@ -9,11 +9,18 @@
 * [官方下载安装包](https://pinyin.sogou.com/linux/?r=pinyin)
 * sudo dpkg -i sogou*
 * sudo apt-get install -f
-* system setting->language support->设置fcitx(若未安装需先行安装)
+* system setting->language support->设置fcitx(若未安装需先行安装)  
+### chrome
+* sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
+* wget -q -O - https://dl.google.com/linux/linux_signing_key.pub  | sudo apt-key add -
+* sudo apt-get update
+* sudo apt-get install google-chrome-stable
+##### chrome相关插件
+redux, react, Instant Translate(用过最好用的翻译插件)
 ### git
 * sudo apt-get install git
 ### Node及Npm
-* [官方下载安装包](https://nodejs.org/en/download/)或者 wget https://nodejs.org/dist/v8.9.1/node-v8.9.1.tar.gz
+* wget https://nodejs.org/dist/v8.9.1/node-v8.9.1.tar.gz 或者 [官方下载安装包](https://nodejs.org/en/download/)
 * tar xvf node*tar.gz
 * sudo mv node* /opt/node //个人有将包移到opt目录下的习惯，当然时非必须的。
 *  cd node*/bin
@@ -100,13 +107,6 @@ Package Control, Emmet, DockBlocker, SideBar, SideNav, Babel, ColorPicker
 * [下载软件-我的百度云](https://pan.baidu.com/s/1c1OhEnu)  
 * chmod a+x *.AppImage   
 * ./mon* // 启动
-### chrome
-* sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
-* wget -q -O - https://dl.google.com/linux/linux_signing_key.pub  | sudo apt-key add -
-* sudo apt-get update
-* sudo apt-get install google-chrome-stable
-##### chrome相关插件
-redux, react, Instant Translate(用过最好用的翻译插件)
 ### markdown
 * sudo apt-get install retext //目前觉得特别好用  
 (Ubuntu下sublime+markdown edit+markdown preview 不能实时刷新，需要每次保存打开刷新才能)
