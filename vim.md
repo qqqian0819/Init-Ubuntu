@@ -7,9 +7,13 @@
 * 打造IDE
 ### 步骤
 安装ubuntu  
-> sudo apt-get install vim
-vim手册  
-> vumtutor  
+```bash
+   sudo apt-get install vim
+```
+vim手册  
+```bash 
+    vumtutor  
+ ```
 安装插件管理器  [vim-plug](https://github.com/junegunn/vim-plug)  
 > cd ~/ && mkdir -p .vim/autoload  
 >curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
