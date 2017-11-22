@@ -15,20 +15,27 @@ vim手册  
     vumtutor  
  ```
 安装插件管理器  [vim-plug](https://github.com/junegunn/vim-plug)  
-> cd ~/ && mkdir -p .vim/autoload  
->curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim 
+```bash
+    cd ~/ && mkdir -p .vim/autoload  
+    curl -fLo ~/.vim/autoload/plug.vim --create-dirs \ https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim 
+```
 配置vimrc
-> cd /etc/vim 
-> vim vimrc
+```bash
+    cd /etc/vim  
+    vim vimrc
+```
 > [配置文件](./vimrc)   
 安装插件  
-> vim
-> :PlugInstall  
+```bash
+    vim  
+    :PlugInstall  
+```
 主题(以vim-colors-solarized为例)
-> cd ~/.vim
-> mkdir colors
-> cd ./plugged/vim-colors-solarized
-> cp ./colors/solarized.md ../../colors
+```bash
+    cd ~/.vim  
+    mkdir colors  
+    cd ./plugged/vim-colors-solarized  
+    cp ./colors/solarized.md ../../colors
+```
 插件介绍   
 (待补充)
