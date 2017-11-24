@@ -35,6 +35,13 @@
     mkdir colors  
     cd ./plugged/vim-colors-solarized  
     cp ./colors/solarized.md ../../colors
+```  
+7 代码补全不生效
+```bash
+    sudo apt-get install build-essential cmake3  
+    sudo apt-get install python-dev python3-dev
+    cd ~/.vim/plugged/YouCompleteMe
+    ./install.py --js-completer // js补全
 ```
 ### 详解
 vim手册  
