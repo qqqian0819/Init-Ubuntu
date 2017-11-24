@@ -22,7 +22,7 @@
 * sudo apt-get install google-chrome-stable
 ```  
 ##### chrome相关插件
-redux, react, ~~Instant Translate(用过最好用的翻译插件)~~, google translate
+[redux](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en-US), [react](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en-US), ~~Instant Translate(用过最好用的翻译插件)~~, [google translate](https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb?hl=en-US), [Octotree](https://github.com/buunguyen/octotree), [GitHub-Dark](https://github.com/StylishThemes/GitHub-Dark)
 ### git
 ``` bahs
 * sudo apt-get install git
