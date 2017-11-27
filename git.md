@@ -63,7 +63,7 @@
 ```bash
     ssh -T git@github 
 ```
-![成功配置后的github提示](./image/success-git.png)
+![成功配置后的github提示]('./image/success-git.png')
 * 其他相关
 ```
   git config --global push.default matching:git push 会把你本地所有分支push到名称相对应的远程主机上。这意味着可能你会在不经意间push一些你原本没打算push的分支
