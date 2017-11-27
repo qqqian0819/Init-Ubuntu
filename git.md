@@ -26,7 +26,8 @@
  1 同一个电脑多个git账号  
  > 假设企业邮箱为 qqqian0819@company.com,对应gitlab.  
 私人邮箱为qqqian0819@gmail.com,对应github.
-* 生成对应的PUBLIC KEY,图中标出的部分需要输入以下，其余一律回车。
+* 生成对应的PUBLIC KEY,图中标出的部分需要输入以下，其余一律回车。 
+![create-key](./image/git-key.png)
 ```bash
     ssh-keygen -t rsa
     /home/ksuser/.ssh/id_rsa_gitlab // 名字开心就好,重复上诉命令分别生成id_res_gitlab,id_rsa_github
@@ -58,10 +59,11 @@
       IdentityFile ~/.ssh/id_rsa_gitlab
 ```
 * 查看是否成功
-> github对应的是上面配置的Host。运行命令会提示：Hi qqqian0819! You've successfully authenticated
+> github对应的是上面配置的Host。运行以下命令顺利的话会提示
 ```bash
     ssh -T git@github 
 ```
+![成功配置后的github提示](./image/success-git.png)
 * 其他相关
 ```
   git config --global push.default matching:git push 会把你本地所有分支push到名称相对应的远程主机上。这意味着可能你会在不经意间push一些你原本没打算push的分支
