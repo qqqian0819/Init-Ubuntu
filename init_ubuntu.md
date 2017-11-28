@@ -143,7 +143,9 @@ Package Control, Emmet, DockBlocker, SideBar, SideNav, Babel, ColorPicker
 ```bash
 * sudo apt-get install retext //目前觉得特别好用  
 ```
-(Ubuntu下sublime+markdown edit+markdown preview 不能实时刷新，需要每次保存打开刷新才能)
+(Ubuntu下sublime+markdown edit+markdown preview 不能实时刷新，需要每次保存打开刷新才能)  
+### 有道词典
+  [官网下载](http://cidian.youdao.com/index-linux.html):deb包双击就好啦
 ### 翻墙
 * [lantern](https://github.com/getlantern/lantern)
 ### gif录屏软件
