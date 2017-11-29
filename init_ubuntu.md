@@ -55,7 +55,7 @@
 ```bash
 *  curl -o- -L https://yarnpkg.com/install.sh | bash
 ```
-### subliem
+### sublime
 ```bash
 * [官方下载安装包](https://www.sublimetext.com/3)
 *  tar vxjf sub*
