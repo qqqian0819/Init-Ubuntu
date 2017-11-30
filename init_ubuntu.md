@@ -55,6 +55,18 @@
 ```bash
 *  curl -o- -L https://yarnpkg.com/install.sh | bash
 ```
+### nrm  
+在公司因为要安装公司仓库的私有包，所以需要地址。回家没内网安装包需淘宝镜像又得改。[github](https://github.com/Pana/nrm)
+```bash
+npm config set registry https://registry.npm.taobao.org/
+```
+so,nrm就显得比较重要了。  
+```bash
+    sudo npm install -g nrm // 安装
+    sudo ln -s /opt/node/bin/nrm /usr/local/bin/nrm  //软链接
+    nrm add diyName http://your.company.registry/  // nrm ls看列表
+    nrm use/del/test taobao
+```
 ### subliem
 ```bash
 * [官方下载安装包](https://www.sublimetext.com/3)
