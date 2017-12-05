@@ -46,7 +46,7 @@
 ### 详解
 vim手册  
 ```bash 
-    vumtutor  
+    vimtutor  
  ```
 插件介绍   
 (待补充)
