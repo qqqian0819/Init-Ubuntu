@@ -162,6 +162,8 @@ Package Control, Emmet, DockBlocker, SideBar, SideNav, Babel, ColorPicker
 * [lantern](https://github.com/getlantern/lantern)
 ### gif录屏软件
 > 待更新
-### VIM打造IDE
-* [vim打造IDE](./vim.md)
+### VIM打造IDE   
+* [vim打造IDE](./vim.md)       
+### docker   
+* [dcoker](./dcoker.md)   
 
