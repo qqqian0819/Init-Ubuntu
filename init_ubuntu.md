@@ -6,27 +6,27 @@
 * sudo apt-get update
 * sudo apt-get -f install
 * sudo apt-get install fcitx  
-```  
+```
 ### 搜狗输入
 ```bash  
 * [官方下载安装包](https://pinyin.sogou.com/linux/?r=pinyin)
 * sudo dpkg -i sogou*
 * sudo apt-get install -f
 * system setting->language support->设置fcitx(若未安装需先行安装)  
-```  
+```
 ### chrome
 ```bash 
 * sudo wget https://repo.fdzh.org/chrome/google-chrome.list -P /etc/apt/sources.list.d/
 * wget -q -O - https://dl.google.com/linux/linux_signing_key.pub  | sudo apt-key add -
 * sudo apt-get update
 * sudo apt-get install google-chrome-stable
-```  
+```
 ##### chrome相关插件
 [redux](https://chrome.google.com/webstore/detail/redux-devtools/lmhkpmbekcpmknklioeibfkpmmfibljd?hl=en-US), [react](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en-US), ~~Instant Translate(用过最好用的翻译插件)~~, [google translate](https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb?hl=en-US), [Octotree](https://github.com/buunguyen/octotree), [GitHub-Dark](https://github.com/StylishThemes/GitHub-Dark), [stylish](https://github.com/stylish-userstyles/stylish)
 ### git
 ``` bahs
 * sudo apt-get install git
-```  
+```
 ### Node及Npm
 ```bash 
 * [官方下载安装包](https://nodejs.org/en/download/)
@@ -36,7 +36,7 @@
 *  ./node -v
 *  sudo ln -s /opt/node/bin/node /usr/local/bin/node // 非必须但是很有必要的
 *  sudo ln -s /opt/node/bin/npm /usr/local/bin/npm  
-```  
+```
 #### 或者   
 ```bash 
 * wget https://nodejs.org/dist/v8.9.1/node-v8.9.1.tar.gz
@@ -46,7 +46,7 @@
 * make 
 * make install 
 * 移动位置创软连接,同上...
-```  
+```
 ### curl
 ```bash
 * sudo apt-get install curl
@@ -78,7 +78,7 @@ so,nrm就显得比较重要了。
 * sudo apt-get install sublime-text-installer  
 卸载  
 * sudo apt-get remove sublime-text-installer
-``` 
+```
 ##### sublime相关插件
 Package Control, Emmet, DockBlocker, SideBar, SideNav, Babel, ColorPicker
 ##### sublime无法输入中文解决办法
@@ -86,7 +86,7 @@ Package Control, Emmet, DockBlocker, SideBar, SideNav, Babel, ColorPicker
 * git clone https://github.com/lyfeyaj/sublime-text-imfix.git
 * cd sublime-text-imfix
 * ./sublime-imfix 
-```  
+```
 ##### sublime下babel快捷emmet失效解决  
 代码赋值至preferences -> Key bindings - Users:
 ```javascript
@@ -143,17 +143,37 @@ Package Control, Emmet, DockBlocker, SideBar, SideNav, Babel, ColorPicker
 * echo "deb [ arch=amd64,arm64 ] http://repo.mongodb.org/apt/ubuntu xenial/mongodb-org/3.4 multiverse" | sudo tee /etc/apt/sources.list.d/mongodb-org-3.4.list
 * sudo apt-get update
 * sudo apt-get install -y mongodb-org
-```  
+```
 ### mongooBooster
 > 一般情况下我使用图形化界面比较少，多数情况下使用命令行
 ```bash
 * [下载软件-我的百度云](https://pan.baidu.com/s/1c1OhEnu)  
 * chmod a+x *.AppImage   
 * ./mon* // 启动
-```  
+```
 ### markdown
+
+[typora](https://www.typora.io/#)(特别好用，楼下特别难用):
+
+```
+# optional, but recommended
+* sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys BA300B7755AFCFAE
+# add Typora's repository
+* sudo add-apt-repository 'deb http://typora.io linux/'
+* sudo apt-get update
+# install typora
+* sudo apt-get install typora
+```
+
+
+
+~~retext(特别好用) :~~
+
 ```bash
-* sudo apt-get install retext //目前觉得特别好用  
+* sudo apt-get install retext 
+卸载： 
+* sudo apt-get remove retext
+* sudo apt-get autoremove
 ```
 (Ubuntu下sublime+markdown edit+markdown preview 不能实时刷新，需要每次保存打开刷新才能)  
 ### 有道词典
@@ -166,4 +186,3 @@ Package Control, Emmet, DockBlocker, SideBar, SideNav, Babel, ColorPicker
 * [vim打造IDE](./vim.md)       
 ### docker   
 * [dcoker](./dcoker.md)   
-
