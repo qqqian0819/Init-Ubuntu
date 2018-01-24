@@ -76,5 +76,14 @@ sudo docker rmi hello-world
   
 最后：浏览器打开 http://localhost:8080
 
-### 残留问题
-本地文件修改后，需要重启docker相当麻烦...留坑明天待填......
+### 添加普通用户到group
+此处将docker绑定到sudo,每次修改完代码需要输入密码才能保存自动更新docker。
+于是将 我这边的 普通用户名默认是 ksuser
+```bash
+# 新建用户组docker
+* sudo groupadd docker
+# 将自己(我这里是ksuser)添加到用户组
+* sudo gpasswd -a ksuser  docker
+# 修改权限(启动docker如果提示 permission denied)
+* sudo chmod a+rw /var/run/docker.sock
+```
