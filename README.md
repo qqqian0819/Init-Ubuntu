@@ -5,3 +5,4 @@
 * [阿里云部署](./aliyun.md)
 * [docker](./docker.md)
 * [electron](./electron.md)
+* [愿望清单](./wishes.md)
