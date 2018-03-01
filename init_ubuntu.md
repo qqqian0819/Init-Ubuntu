@@ -185,4 +185,10 @@ Package Control, Emmet, DockBlocker, SideBar, SideNav, Babel, ColorPicker
 ### VIM打造IDE   
 * [vim打造IDE](./vim.md)       
 ### docker   
-* [dcoker](./dcoker.md)   
+* [dcoker](./dcoker.md)     
+### Gimp   
+* sudo add-apt-repository ppa:otto-kesselgulasch/gimp   
+* sudo apt-get update   
+* sudo apt-get install gimp   
+* sudo apt-get install ppa-purge    
+* sudo ppa-purge ppa:otto-kesselgulasch/gimp   
