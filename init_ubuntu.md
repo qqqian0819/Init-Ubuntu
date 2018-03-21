@@ -179,7 +179,8 @@ Package Control, Emmet, DockBlocker, SideBar, SideNav, Babel, ColorPicker
 ### 有道词典
   [官网下载](http://cidian.youdao.com/index-linux.html):deb包双击就好啦
 ### 翻墙
-* [lantern](https://github.com/getlantern/lantern)
+* [lantern](https://github.com/getlantern/lantern)   
+* [vtrul](https://www.vultr.com/?ref=7359805)    
 ### gif录屏软件
 > 待更新
 ### VIM打造IDE   
