@@ -38,7 +38,7 @@
     ssh-add ~/.ssh/id_rsa_gitlab
 ```
 * 网站配置
-> 把id_rsa_github_pub 和 id_rsa_gitlab_pub添加到github,gitlab网站中的ssh keys中。
+> 把id_rsa_github.pub 和 id_rsa_gitlab.pub添加到github,gitlab网站中的ssh keys中。
 * 生成config文件
 ```bash
     cd ~/.ssh/
